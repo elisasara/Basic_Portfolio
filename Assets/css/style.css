@@ -14,6 +14,7 @@ body {
 
 header {
     background-color: #ffffff;
+    width: auto;
 }
 
 .name {
@@ -50,6 +51,26 @@ section {
     margin-right: 20px;
 }
 
+h1 {
+    color: #4aaaa5;
+}
+
+hr {
+    background-color: #ededed;
+    border: solid;
+    border-color: #ededed;
+    margin-bottom: 20px;
+}
+
+.standardinput{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.messageinput{
+    width: 100%;
+    height: 200px;
+}
+
 aside {
     float: right;
     display: inline;
@@ -69,7 +90,7 @@ footer {
     background-color:#666666;
     color: #ededed;
     text-align: center;
-    position: absolute;
+    position: fixed;
     left: 0;
     right: 0;
     bottom: 0;
@@ -78,3 +99,4 @@ footer {
     border-top-style: solid;
     border-top-width: 5px;
 }
+
