@@ -14,7 +14,7 @@ body {
 
 header {
     background-color: #ffffff;
-    width: auto;
+    width: 100%;
 }
 
 .name {
@@ -22,17 +22,19 @@ header {
     display: inline;
     background-color: #4aaaa5;
     color: #ffffff;
-    vertical-align: bottom;
     padding: 20px;
-    position: relative;
-    left: 100px;
-    bottom: 0;
+    width: 200px;
+    text-align: center;
 }
 
 nav {
     float: right;
     display: inline;
-    vertical-align: text-bottom;
+}
+
+.navlink {
+    color: #777777;
+    padding: 10px;
 }
 
 section {
@@ -90,10 +92,11 @@ footer {
     background-color:#666666;
     color: #ededed;
     text-align: center;
-    position: fixed;
+    position: absolute;
     left: 0;
     right: 0;
     bottom: 0;
+    overflow: hidden;
     padding: 20px;
     border-top-color: #4aaaa5;
     border-top-style: solid;
