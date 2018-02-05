@@ -138,7 +138,8 @@ hr {
 .SocialMedia {
    max-width: 20%;
    height: auto;
-   padding: 5px;
+   padding: 10px;
+   margin-left: 5px;
 }
 
 .portfolioimage {
